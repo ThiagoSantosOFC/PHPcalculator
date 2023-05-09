@@ -1,3 +1,4 @@
+
 <?php
 
 $host = 'localhost'; // endereço do servidor
@@ -20,3 +21,4 @@ socket_write($socket, $resultado, strlen($resultado)) or die("Não foi possível
 
 // fecha a conexão
 socket_close($socket);
+
